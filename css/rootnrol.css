@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    background-color: #fff6e5;
+    color: #692505;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+/* NAVIGATION */
+.navi{
+    background-color: #692505;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 20px;
+    padding: 15px;
+}
+#navi{
+    display: inline-block;
+    color: #fff6e5;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 8px;
+}
+
+#navi:hover {
+    text-decoration: underline;
+}
+
+/* GENERAL SECTIONS */
+section {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+/* HOME */
+header {
+    text-align: center;
+    padding: 60px 10%;
+}
+
+#logo{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    padding-top: 25px;
+}
+
+#businessname{
+    font-size: 40px;
+    margin: 10px 0;
+    font-family: Times New Roman;
+    font-weight: bold;
+}
+
+#slogan{
+    font-size: 15px;
+}
+
+#desc{
+    max-width: 800px;
+    margin: 15px auto;
+}
+
+#redirect{
+    display: inline-block;
+    background-color: #692505;
+    color: #fff6e5;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ABOUT */
+#about {
+    background-color: #f5dfc0;
+}
+
+#aboutbusiness{
+    font-weight: bold;
+    font-family: times new roman;
+    font-size: 35px;
+}
+
+div{
+    margin: 25px auto;
+    max-width: 700px;
+}
+
+#story{
+    font-size: 25px;
+}
+
+#storydesc{
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+/* MISSION AND VISION */
+#visionandmission{
+    background-color: #692505;
+    color: #fff6e5;
+    border-bottom: 3px solid #f7b97f;
+}
+
+#vandmtitle{
+    font-size: 33px;
+    font-family: times new roman;
+
+}
+
+#vandmdesc{
+    font-size: 19px;
+
+}
+
+/* PRODUCTS */
+.product{
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #f5dfc0;
+    border: 2px solid #692505;
+}
+
+#amonproduct{
+    font-family: times new roman;
+    font-weight: bold;
+}
+
+#productpic{
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+#producttitle{
+    font-size: 15px;
+}
+
+#productdesc{
+    font-size: 13px;
+}
+
+
+/* WHY CHOOSE US */
+#why {
+    background-color: #f5dfc0;
+}
+
+#ngaa{
+    font-family: times new roman;
+    font-weight: bold;
+}
+
+.whys{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid #692505;
+}
+
+#whytitle{
+    font-family: arial;
+
+}
+
+
+#whydesc{
+    font-size: 13px;
+}
+
+
+/* SERVICES */
+#amonservice{
+    font-family: times new roman;
+    font-weight: bold;
+    
+}
+
+.service-div{
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid #692505;
+}
+
+#servicetitle{
+    font-family: arial;
+
+}
+
+#servicedesc{
+    font-size: 13px;
+
+}
+
+/* LOCATION */
+#loctitle{
+    font-family: times new roman;
+    font-size: 30px;
+}
+
+#map{
+    width: 350px;
+    height: 250px;
+}
+
+#visit{
+    font-family: arial;
+    font-size: 25px;
+}
+
+#locdesc{
+    font-size: 15px;
+}
+
+
+/* CONTACT */
+
+#contact {
+    background-color: #692505;
+    color: #fff6e5;
+}
+
+#contact a {
+    color: #fff6e5;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #3d1605;
+    color: #fff6e5;
+    text-align: center;
+    padding: 10px;
+}
+
+#foot{
+    font-size: 15px;
+}
+
+#footerdescs{
+    font-size: 12px;
+}
+
+
+/* SIMPLE MOBILE VERSION */
+@media screen and (max-width: 600px) {
+    nav h1 {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    header h2 {
+        font-size: 30px;
+    }
+
+    .product,
+    #why article,
+    #services article {
+        width: 80%;
+    }
+
+    #gallery img {
+        width: 80%;
+        height: auto;
+    }
+}
